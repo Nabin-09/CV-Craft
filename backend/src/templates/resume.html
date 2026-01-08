@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* ATS Rule: Standard Fonts only (Arial/Helvetica)  */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.4;
+            color: #000;
+            margin: 0;
+            padding: 40px;
+            font-size: 11pt;
+        }
+
+        /* ATS Rule: Single Column & No Colors [cite: 174, 177] */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 24pt;
+            margin-bottom: 5px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+        }
+
+        /* ATS Rule: No Tables, use Semantic Divs [cite: 178] */
+        h2 {
+            font-size: 14pt;
+            border-bottom: 1px solid #000;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        /* Hide specific elements from PDF if needed */
+        @media print {
+            body { margin: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{fullName}}</h1>
+        <div class="contact-info">
+            {{email}} | {{role}}
+        </div>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>{{summary}}</p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <p>{{skills}}</p>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            {{experience}}
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            {{projects}}
+        </section>
+    </div>
+</body>
+</html>

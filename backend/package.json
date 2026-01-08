@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.13.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
@@ -26,9 +27,11 @@
     "multer": "^2.0.2",
     "pdf-lib": "^1.17.1",
     "pdf-parse-new": "^2.0.0",
-    "pdfjs-dist": "^5.4.530"
+    "pdfjs-dist": "^5.4.530",
+    "puppeteer": "^24.34.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.9.36",
     "@types/bcrypt": "^6.0.0",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",

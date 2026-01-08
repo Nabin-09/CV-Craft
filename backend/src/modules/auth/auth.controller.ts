@@ -8,11 +8,23 @@ export const register = async (req: Request, res: Response) => {
 };
 
 export const login = async (req: Request, res: Response) => {
+  console.log("Received body:", req.body);
+  if (!req.body) {
+    return res.status(400).json({ message: "Request body is missing" });
+  }
+
   const { email, password } = req.body;
-  const tokens = await loginUser(email, password);
 
-  res.cookie("accessToken", tokens.accessToken, { httpOnly: true });
-  res.cookie("refreshToken", tokens.refreshToken, { httpOnly: true });
+  if (!email || !password) {
+    return res.status(400).json({ message: "Email and password are required" });
+  }
 
-  res.json({ message: "Logged in" });
+  try {
+    const tokens = await loginUser(email, password);
+    res.cookie("accessToken", tokens.accessToken, { httpOnly: true });
+    res.cookie("refreshToken", tokens.refreshToken, { httpOnly: true });
+    res.json({ message: "Logged in" });
+  } catch (error: any) {
+    res.status(401).json({ message: error.message || "Login failed" });
+  }
 };

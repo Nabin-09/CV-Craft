@@ -1,0 +1,39 @@
+Nabin Sharma
+Phone: +91-9339929909
+Email: sharmanabin.0910@gmail.com
+LinkedIn: linkedin.com/in/nabin-sharma09 GitHub: github.com/Nabin-09
+City, State, Country
+Backend-focused Computer Science undergraduate with hands-on experience in building
+scalable APIs, AI-powered applications, and production-ready systems. Strong in Node.js,
+TypeScript, REST APIs, authentication, and cloud deployment, with a solid understanding
+of system design and performance optimization.
+Skills
+• Programming: C++, JavaScript, TypeScript, SQL
+• Backend: Node.js, Express.js, FastAPI, REST APIs, JWT
+• Frontend: React, Tailwind CSS, Framer Motion
+• Databases: MongoDB, MongoDB Atlas, SQL
+• AI / LLMs: Google Gemini, LangChain, Ollama (DeepSeek-R1)
+• Tools: Git, GitHub, Postman, Vercel, Render
+Experience
+• Backend Engineer May 2025 – July 2025 JKC Softwares LLP
+• Built and maintained RESTful APIs using Node.js and Express for production systems.
+• Designed optimized database schemas and improved query performance.
+• Implemented JWT-based authentication, role-based authorization, and validation middleware.
+Projects
+• SocialScribe — AI-Powered Social Media Content Generator GitHub: github.com/Nabin-09/SocialScribe
+• Built an AI-powered content generation system using Google Gemini with human-in-the-loop approval.
+• Designed platform-specific content optimization for LinkedIn, Twitter, Instagram, and Facebook.
+• Implemented draft workflows, validation checks, and brand-safety filters to ensure quality output.
+• CV-Craft — ATS-Friendly Resume Generator GitHub: github.com/Nabin-09/CV-Craft
+• Developed an ATS-optimized resume generator using React and TypeScript.
+• Integrated local LLM inference using Ollama (DeepSeek-R1:8B) for intelligent resume rewriting.
+• Focused on clean formatting, keyword optimization, and recruiter-friendly layouts.
+• Hindi to English Translator — AI Translation App Live: hin-to-en-gemini-sdk.vercel.app
+• Built a full-stack AI translation application using Google Gemini and FastAPI.
+• Designed secure REST APIs for inference handling and deployed the app on cloud platforms.
+Education
+B.Tech in Computer Science and Engineering, Amity University, Uttar Pradesh CGPA: 8.07
+
+1
+
+

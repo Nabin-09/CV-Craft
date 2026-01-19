@@ -1,0 +1,44 @@
+John Doe
+
+johndoe@email.com
+doe.portfolio.com
+
+|
+
+linkedin.com/in/johndoe
+
+|
+
+github.com/johndoe
+
+|
+
+john-
+
+City, State, Country
+Results-driven Node.js Backend Developer
+Summary: Proven Node.js backend developer with expertise in Express, REST APIs, and MySQL. Delivering
+scalable, high-performance solutions that drive business growth.
+Skills:
+• Languages: Node.js, JavaScript
+• Frameworks: Express
+• Tools: MySQL
+• Concepts: REST APIs, Microservices
+Experience:
+• Backend Developer, ABC Company (2020-Present)
+• Designed and implemented scalable Node.js backend for REST APIs, resulting in 30% increase in API calls.
+• Utilized Express to build high-performance API endpoints, achieving 99.99% uptime.
+• Collaborated with cross-functional teams to integrate MySQL database, improving data consistency by 25%.
+• Implemented microservices architecture, reducing development time by 40%.
+• Senior Backend Developer, DEF Company (2018-2020)
+• Led a team of developers to design and implement a Node.js-based backend for a cloud-based application,
+resulting in 50% increase in user engagement.
+• Developed and maintained REST APIs using Express, achieving 99.99% uptime.
+• Implemented MySQL database, improving data consistency by 20%.
+Education:
+• Bachelor of Science in Computer Science, XYZ University (2015-2018)
+• GPA: 3.5/4.0
+
+1
+
+
